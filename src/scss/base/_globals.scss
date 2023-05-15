@@ -1,6 +1,6 @@
 html {
     // typography
-    font-size: 16px;
+    font-size: 10px;
 }
 
 // Box sizing fix
@@ -9,6 +9,7 @@ body {
     box-sizing: border-box;
     max-width: 1920px;
     margin: 0 auto;
+    padding: 2rem;
 }
 
 // html, body {
@@ -41,27 +42,6 @@ html {
     box-sizing: inherit;
 }
 
-
-body::-webkit-scrollbar {
-    // box model
-    width: 8px;
-
-    & * {
-        background: transparent;
-    }
-
-    &-thumb {
-        // visual
-        background: $golden;
-        border-radius: 10px;
-    }
-    
-    &-track {
-        // visual
-        background: transparent !important;
-    }
-}
-
 .visually-hidden {
     // positioning
     position: absolute !important;
@@ -85,4 +65,11 @@ input::-webkit-inner-spin-button {
 }
 input[type='number'] {
     -moz-appearance: textfield;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
 }

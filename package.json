@@ -1,5 +1,5 @@
 {
-  "name": "starter",
+  "name": "ivi-test-1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/drsg85/Starter.git"
   },
-  "author": "RB",
+  "author": "Roman Bagel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/drsg85/Starter/issues"
@@ -28,7 +28,8 @@
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {
-    "browser-sync": "^2.26.7",
-    "gulp-csso": "^4.0.1"
+    "browser-sync": "^2.29.1",
+    "gulp-csso": "^4.0.1",
+    "node-sass": "^8.0.0"
   }
 }
